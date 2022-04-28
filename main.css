@@ -1,0 +1,451 @@
+body {
+  background-color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  margin: 5em 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+/* ------Mobile Section ---------*/
+/*--------Navbar Section --------*/
+.navbar {
+  background-color: rgb(247, 247, 248);
+  padding: 0;
+  position: fixed;
+  margin-top: 0;
+  margin-right: 0;
+}
+.mob-nav {
+  display: none;
+}
+.mobile-menu-icon {
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0 0% 0 50%;
+  display: inline-flex;
+  text-align: right;
+}
+.logo {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  font-style: Bold;
+  display: inline-flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mobile-menu-exit {
+  display: none;
+}
+
+.hero-image {
+  height: 20em;
+  width: 20em;
+  border-radius: 50%;
+}
+
+/*---------hero Section --------*/
+.sub-heading {
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin: 2em auto 2em auto;
+}
+
+.heading {
+  font-size: 3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  padding: 0em;
+  margin: 0.5em;
+}
+
+.hero-cta {
+  padding: 1em;
+}
+
+.chat-cta {
+  background-color: salmon;
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 0.4em;
+  border-radius: 5em;
+  color: black;
+  margin: 2px;
+}
+
+.watch-video {
+  background-color: salmon;
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 0.4em;
+  border-radius: 5em;
+  margin-left: 28em;
+}
+/*-----features Section------*/
+
+.features-list {
+  list-style-type: none;
+  font-size: 1.2em;
+  padding: 5em;
+  padding-top: 1em;
+  display: grid;
+  margin-left: 28%;
+  display: inline-flexbox;
+}
+.story-img {
+  display: inline-flex;
+  height: 30%;
+  width: 25%;
+  margin-left: 25%;
+  position: absolute;
+}
+
+.story {
+  text-align: center;
+  padding-top: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  font-weight: lighter;
+  padding-bottom: 1.8em;
+}
+
+.features-img {
+  display: none;
+}
+.features-section {
+  background-color: salmon;
+  margin: 0;
+}
+
+li {
+  margin: 0.2em;
+}
+
+/*-----testamonials------*/
+
+.testammonial-order-list-A {
+  list-style-type: none;
+  background-color: bisque;
+  padding-bottom: 2em;
+  margin-top: 3em;
+  border-radius: 2em;
+}
+
+.testamonial-img-A {
+  height: 5em;
+  width: 5em;
+  margin: -35px;
+  border-radius: 50%;
+}
+.testamonial-text-A {
+  margin-top: 2.5em;
+  padding-top: 0.5em;
+}
+
+.cite-A {
+  margin: 1em;
+}
+
+.testammonial-order-list-B {
+  list-style-type: none;
+  background-color: bisque;
+  padding-bottom: 2em;
+  margin-top: 3em;
+  border-radius: 2em;
+}
+
+.testamonial-img-B {
+  height: 5em;
+  width: 5em;
+  margin: -35px;
+  border-radius: 50%;
+}
+.testamonial-text-B {
+  margin-top: 2.5em;
+  padding-top: 0.5em;
+}
+
+.cite-B {
+  margin: 1em;
+}
+
+.testammonial-order-list-C {
+  list-style-type: none;
+  background-color: bisque;
+  padding-bottom: 2em;
+  margin-top: 3em;
+  border-radius: 2em;
+}
+
+.testamonial-img-C {
+  height: 5em;
+  width: 5em;
+  margin: -35px;
+  border-radius: 50%;
+}
+.testamonial-text-C {
+  margin-top: 2.5em;
+  padding-top: 0.5em;
+}
+
+/*-----Contact Section -------*/
+
+.contact-section {
+  background-color: salmon;
+  margin: 0;
+  padding-top: 3em;
+  padding-bottom: 5%;
+}
+
+form {
+  text-align: center;
+  padding-left: 40%;
+  padding-top: 2em;
+}
+
+.contact {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  font-size: 1.2em;
+}
+
+.email {
+  display: flex;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+}
+.message {
+  display: flex;
+  padding-top: 1em;
+  font-size: 1.2em;
+}
+input {
+  margin-top: 0.5em;
+  padding-right: 5em;
+  padding-left: 0.2em;
+  display: flex;
+  text-align: lefemt;
+  border-radius: 0.2em;
+  border: none;
+}
+textarea {
+  margin-top: 1em;
+  margin-left: 0;
+  display: flex;
+  border-radius: 1em;
+  padding-top: 0.3em;
+  font-size: 1.5em;
+}
+
+.send-message-cta {
+  background-color: antiquewhite;
+  border: solid 0;
+  padding: 0.4em 0.5em 0.4em 0.5em;
+  border-radius: 5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/*-------footer Section --------*/
+.footer {
+  margin: 0;
+  background-color: black;
+}
+.social-media {
+  padding-top: 1.5em;
+}
+.footer-unorder-list {
+  display: grid;
+  padding-bottom: 2em;
+  color: white;
+  text-align: center;
+}
+.social-media {
+  margin: 0;
+  font-style: Bold;
+  font-family: Cambria;
+  color: white;
+  padding-bottom: 1em;
+}
+
+.linkedin {
+  text-align: center;
+  color: white;
+}
+.twitter-pic {
+  height: 46%;
+  width: 15%;
+}
+
+.insta-pic {
+  padding: 1em;
+  padding-left: 20%;
+  font-size: 1.2em;
+}
+.fb-pic {
+  padding: 1em;
+  padding-left: 20%;
+  font-size: 1.2em;
+}
+
+.twitter {
+  margin: 0;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.copyright {
+  margin: 0;
+  padding-top: 3em;
+  color: white;
+}
+.footer-img {
+  width: 10%;
+  height: 30%;
+  text-align: center;
+}
+/*-----ipad section-------*/
+
+@media only screen and (min-width: 750px) {
+  /*----navbar section ---*/
+  .mobile-menu-icon {
+    display: none;
+  }
+  .logo {
+    text-align: left;
+    display: inline-flex;
+    margin-right: 25%;
+    margin-left: 1%;
+  }
+  nav {
+    display: inline-flex;
+    margin: 0;
+  }
+  .primary-nav {
+    display: inline-flex;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0.2em;
+    padding-left: 0.2em;
+  }
+  .secondary-nav {
+    display: none;
+  }
+
+  .mob-primary-nav {
+    display: none;
+  }
+
+  .mob-secondary-nav {
+    display: none;
+  }
+
+  .mob-nav {
+    display: none;
+  }
+
+  .Home {
+    padding-right: 10%;
+    padding-left: 1em;
+  }
+
+  .explore {
+    padding-right: 10%;
+    padding-left: 1em;
+  }
+
+  .blog {
+    padding-left: 1em;
+  }
+
+  /*------hero section -------*/
+
+  .chat-cta {
+    text-align: left;
+  }
+
+  /*-----features section----*/
+
+  .features-list {
+    text-align: left;
+    padding-left: 26%;
+  }
+
+  /*-----testamonial Section ------*/
+
+  .testamonials-section {
+    padding: 2em 15% 2em 15%;
+    display: grid;
+  }
+}
+/*-------explore page--------*/
+
+.sijo-ex {
+  height: 50%;
+  width: 25%;
+  margin-top: 5em;
+  display: inline-flexbox;
+  text-align: center;
+  border-radius: 5%;
+}
+.about {
+  display: inline-flexbox;
+  padding-bottom: 0;
+  margin-top: 1em;
+  text-align: Center;
+}
+.about-para {
+  display: inline-flexbox;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.ex-container {
+  background-color: bisque;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.ex {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.list-ex {
+  text-align: center;
+  padding: auto;
+  display: inline;
+  padding-left: 4em;
+}
+
+.domcor {
+  height: 5em;
+  width: 10em;
+  display: inline-flex;
+  text-align: center;
+  margin-left: 20%;
+}
+.edu-container {
+  text-align: center;
+  padding: 3em;
+}
+.edu-list {
+  padding: 2em;
+}
